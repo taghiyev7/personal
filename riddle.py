@@ -7,7 +7,7 @@ def answer_riddle(question, answer):
         'A small number of cards has been lost from a complete pack. If I deal among four people, three cards remain. If I deal among three people, two remain and if I deal among five people, two cards remain. How many cards are there?': '47',
         'What is the smallest whole number that is equal to seven times the sum of its digits?': '21',
         'I am an odd number. Take away one letter and I become even. What number am I?': 'seven',
-        'What comes once in a minute, twice in a moment, but never in a thousand years?': ''m''
+        'What comes once in a minute, twice in a moment, but never in a thousand years?': "'m'"
     }
 
     if answer == correct_answers.get(question, '').lower():
